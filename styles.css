@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #74b5a5;
+}
+
+.topper {
+  border: 2px solid black;
+  background-image: url("https://m.media-amazon.com/images/I/41sVIrxYJcL._AC_SY355_.jpg");
+  padding-top: 2rem;
+  padding-bottom: 2.9rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #b57484;
+  text-decoration: underline;
+}
+
+#cards {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+}
+
+.card {
+  width: 20rem;
+  box-shadow: 0 0 4px 3px #506161;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 4rem;
+  border-radius: 1rem;
+  transition: 0.3s;
+  background-color: #9fccc1;
+}
+
+.card:hover {
+  width: 25rem;
+  box-shadow: 0 0 4px 3px #b57484;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 4rem;
+  border-radius: 1rem;
+}
+
+.images {
+  width: 80%;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  border: 2px solid #506161;
+  padding: 3rem;
+  border-radius: 5rem;
+  background: white;
+}
+
+.title {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #394545;
+}
+
+.description {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.09rem;
+  color: #394545;
+}
+
+.category {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #394545;
+}
+
+.price {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #394545;
+  text-decoration: underline;
+}
